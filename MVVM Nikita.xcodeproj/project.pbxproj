@@ -12,6 +12,9 @@
 		7D64A859255ACD5700FE3BE8 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A858255ACD5700FE3BE8 /* TableViewModelType.swift */; };
 		7D64A862255ACECF00FE3BE8 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A861255ACECF00FE3BE8 /* TableViewCellViewModel.swift */; };
 		7D64A867255ACEEF00FE3BE8 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A866255ACEEF00FE3BE8 /* TableViewCellViewModelType.swift */; };
+		7D64A86E255C612300FE3BE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A86D255C612300FE3BE8 /* DetailViewController.swift */; };
+		7D64A873255C61FC00FE3BE8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A872255C61FC00FE3BE8 /* DetailViewModel.swift */; };
+		7D64A878255C621200FE3BE8 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64A877255C621200FE3BE8 /* DetailViewModelType.swift */; };
 		7DCBDC16255AAEE60037CB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBDC15255AAEE60037CB10 /* AppDelegate.swift */; };
 		7DCBDC18255AAEE60037CB10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCBDC17255AAEE60037CB10 /* SceneDelegate.swift */; };
 		7DCBDC1D255AAEE60037CB10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBDC1B255AAEE60037CB10 /* Main.storyboard */; };
@@ -46,6 +49,9 @@
 		7D64A858255ACD5700FE3BE8 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
 		7D64A861255ACECF00FE3BE8 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 		7D64A866255ACEEF00FE3BE8 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		7D64A86D255C612300FE3BE8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7D64A872255C61FC00FE3BE8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		7D64A877255C621200FE3BE8 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
 		7DCBDC12255AAEE60037CB10 /* MVVM Nikita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Nikita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCBDC15255AAEE60037CB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCBDC17255AAEE60037CB10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			children = (
 				7D64A84F255ACCC500FE3BE8 /* ViewModel.swift */,
 				7D64A861255ACECF00FE3BE8 /* TableViewCellViewModel.swift */,
+				7D64A872255C61FC00FE3BE8 /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -110,6 +117,7 @@
 			children = (
 				7D64A858255ACD5700FE3BE8 /* TableViewModelType.swift */,
 				7D64A866255ACEEF00FE3BE8 /* TableViewCellViewModelType.swift */,
+				7D64A877255C621200FE3BE8 /* DetailViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 			children = (
 				7DCBDC4B255AB4240037CB10 /* TableViewController.swift */,
 				7DCBDC5C255ACA7B0037CB10 /* TableViewCell.swift */,
+				7D64A86D255C612300FE3BE8 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,7 +324,10 @@
 				7D64A859255ACD5700FE3BE8 /* TableViewModelType.swift in Sources */,
 				7D64A850255ACCC500FE3BE8 /* ViewModel.swift in Sources */,
 				7D64A862255ACECF00FE3BE8 /* TableViewCellViewModel.swift in Sources */,
+				7D64A86E255C612300FE3BE8 /* DetailViewController.swift in Sources */,
 				7D64A867255ACEEF00FE3BE8 /* TableViewCellViewModelType.swift in Sources */,
+				7D64A878255C621200FE3BE8 /* DetailViewModelType.swift in Sources */,
+				7D64A873255C61FC00FE3BE8 /* DetailViewModel.swift in Sources */,
 				7DCBDC18255AAEE60037CB10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
